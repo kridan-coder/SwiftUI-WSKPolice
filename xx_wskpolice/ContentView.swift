@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        LoginView()
+  
+  @AppStorage("isLoggedIn") var isLoggedIn = false
+  
+  @State var enteredAsGuest = false
+  
+  var body: some View {
+    if enteredAsGuest || isLoggedIn {
+      MainView()
+    } else {
+      LoginView(enteredAsGuest: $enteredAsGuest)
     }
+    
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }

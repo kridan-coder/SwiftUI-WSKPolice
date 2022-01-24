@@ -37,6 +37,11 @@ class LoginViewModel: ObservableObject {
 }
 
 struct LoginView: View {
+  
+  @AppStorage("isLoggedIn") var isLoggedIn: Bool?
+  
+  @Binding var enteredAsGuest: Bool
+  
   var isNavigationBarHidden = true
   @State var needsCaptcha = true
   @State var needsAlert = false
@@ -136,7 +141,7 @@ struct LoginView: View {
                 .frame(width: 100, height: 40)
                 .background(Color("ButtonColor"))
                 .padding()
-                .alert("Incorrect Captcha. Try again.", isPresented: $needsAlert) {}
+                .alert("Incorrect Captcha input. Try again.", isPresented: $needsAlert) {}
                 
               }
             }
@@ -156,7 +161,10 @@ struct LoginView: View {
               .padding()
               
               Button {
-                
+                withAnimation {
+                  
+                  enteredAsGuest.toggle()
+                }
               } label: {
                 Text("Guest")
                   .frame(maxWidth: .infinity)
@@ -180,7 +188,7 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
   static var previews: some View {
-    LoginView()
+    LoginView(enteredAsGuest: .constant(false))
   }
 }
 

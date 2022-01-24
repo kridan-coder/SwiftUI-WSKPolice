@@ -19,6 +19,8 @@
 		3AFF6F1E279E58DE007A36DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F1D279E58DE007A36DE /* LoginView.swift */; };
 		3AFF6F21279E5D4C007A36DE /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F20279E5D4C007A36DE /* Checkbox.swift */; };
 		3AFF6F23279E66E8007A36DE /* Captcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F22279E66E8007A36DE /* Captcha.swift */; };
+		3AFF6F28279E76DF007A36DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F27279E76DF007A36DE /* MainView.swift */; };
+		3AFF6F2B279E80A1007A36DE /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F2A279E80A1007A36DE /* AboutUs.swift */; };
 		AB3FAC42BADD80E362BE5988 /* Pods_xx_wskpolice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753A34D8DA44554CFC6BC5D /* Pods_xx_wskpolice.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		3AFF6F1D279E58DE007A36DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3AFF6F20279E5D4C007A36DE /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		3AFF6F22279E66E8007A36DE /* Captcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captcha.swift; sourceTree = "<group>"; };
+		3AFF6F27279E76DF007A36DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3AFF6F2A279E80A1007A36DE /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		3AFF6F01279E54DD007A36DE /* xx_wskpolice */ = {
 			isa = PBXGroup;
 			children = (
+				3AFF6F29279E808B007A36DE /* AboutUs */,
+				3AFF6F24279E76CA007A36DE /* Main */,
 				3AFF6F1F279E5D17007A36DE /* Common */,
 				3AFF6F1C279E58CD007A36DE /* Authorization */,
 				3AFF6F11279E55DD007A36DE /* Fonts */,
@@ -122,6 +128,22 @@
 				3AFF6F22279E66E8007A36DE /* Captcha.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		3AFF6F24279E76CA007A36DE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3AFF6F27279E76DF007A36DE /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3AFF6F29279E808B007A36DE /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				3AFF6F2A279E80A1007A36DE /* AboutUs.swift */,
+			);
+			path = AboutUs;
 			sourceTree = "<group>";
 		};
 		5A7AF040E4E64DDCF24A63B1 /* Pods */ = {
@@ -261,10 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFF6F21279E5D4C007A36DE /* Checkbox.swift in Sources */,
+				3AFF6F28279E76DF007A36DE /* MainView.swift in Sources */,
 				3AFF6F1E279E58DE007A36DE /* LoginView.swift in Sources */,
 				3AFF6F23279E66E8007A36DE /* Captcha.swift in Sources */,
 				3AFF6F05279E54DD007A36DE /* ContentView.swift in Sources */,
 				3AFF6F03279E54DD007A36DE /* xx_wskpoliceApp.swift in Sources */,
+				3AFF6F2B279E80A1007A36DE /* AboutUs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
