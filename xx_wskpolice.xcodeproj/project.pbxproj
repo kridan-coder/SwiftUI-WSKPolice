@@ -11,14 +11,27 @@
 		3AFF6F05279E54DD007A36DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F04279E54DD007A36DE /* ContentView.swift */; };
 		3AFF6F07279E54DE007A36DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F06279E54DE007A36DE /* Assets.xcassets */; };
 		3AFF6F0A279E54DE007A36DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F09279E54DE007A36DE /* Preview Assets.xcassets */; };
+		3AFF6F16279E55EF007A36DE /* Scada-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F12279E55EF007A36DE /* Scada-Italic.ttf */; };
+		3AFF6F17279E55EF007A36DE /* Scada-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F13279E55EF007A36DE /* Scada-BoldItalic.ttf */; };
+		3AFF6F18279E55EF007A36DE /* Scada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F14279E55EF007A36DE /* Scada-Bold.ttf */; };
+		3AFF6F19279E55EF007A36DE /* Scada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F15279E55EF007A36DE /* Scada-Regular.ttf */; };
+		AB3FAC42BADD80E362BE5988 /* Pods_xx_wskpolice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753A34D8DA44554CFC6BC5D /* Pods_xx_wskpolice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0478CA2A83BC341E28D7EA2E /* Pods-xx_wskpolice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xx_wskpolice.release.xcconfig"; path = "Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice.release.xcconfig"; sourceTree = "<group>"; };
+		0CD59D3B7574914F02005FA9 /* Pods-xx_wskpolice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xx_wskpolice.debug.xcconfig"; path = "Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice.debug.xcconfig"; sourceTree = "<group>"; };
+		1753A34D8DA44554CFC6BC5D /* Pods_xx_wskpolice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xx_wskpolice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFF6EFF279E54DD007A36DE /* xx_wskpolice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xx_wskpolice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFF6F02279E54DD007A36DE /* xx_wskpoliceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xx_wskpoliceApp.swift; sourceTree = "<group>"; };
 		3AFF6F04279E54DD007A36DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AFF6F06279E54DE007A36DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFF6F09279E54DE007A36DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AFF6F10279E55B9007A36DE /* xx-wskpolice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "xx-wskpolice-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3AFF6F12279E55EF007A36DE /* Scada-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scada-Italic.ttf"; sourceTree = "<group>"; };
+		3AFF6F13279E55EF007A36DE /* Scada-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scada-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3AFF6F14279E55EF007A36DE /* Scada-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scada-Bold.ttf"; sourceTree = "<group>"; };
+		3AFF6F15279E55EF007A36DE /* Scada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scada-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3FAC42BADD80E362BE5988 /* Pods_xx_wskpolice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +51,8 @@
 			children = (
 				3AFF6F01279E54DD007A36DE /* xx_wskpolice */,
 				3AFF6F00279E54DD007A36DE /* Products */,
+				5A7AF040E4E64DDCF24A63B1 /* Pods */,
+				F7AE8F3792F38F537848BE01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +67,8 @@
 		3AFF6F01279E54DD007A36DE /* xx_wskpolice */ = {
 			isa = PBXGroup;
 			children = (
+				3AFF6F11279E55DD007A36DE /* Fonts */,
+				3AFF6F10279E55B9007A36DE /* xx-wskpolice-Info.plist */,
 				3AFF6F02279E54DD007A36DE /* xx_wskpoliceApp.swift */,
 				3AFF6F04279E54DD007A36DE /* ContentView.swift */,
 				3AFF6F06279E54DE007A36DE /* Assets.xcassets */,
@@ -67,6 +85,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3AFF6F11279E55DD007A36DE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AFF6F14279E55EF007A36DE /* Scada-Bold.ttf */,
+				3AFF6F13279E55EF007A36DE /* Scada-BoldItalic.ttf */,
+				3AFF6F12279E55EF007A36DE /* Scada-Italic.ttf */,
+				3AFF6F15279E55EF007A36DE /* Scada-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5A7AF040E4E64DDCF24A63B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CD59D3B7574914F02005FA9 /* Pods-xx_wskpolice.debug.xcconfig */,
+				0478CA2A83BC341E28D7EA2E /* Pods-xx_wskpolice.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7AE8F3792F38F537848BE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1753A34D8DA44554CFC6BC5D /* Pods_xx_wskpolice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFF6F0D279E54DE007A36DE /* Build configuration list for PBXNativeTarget "xx_wskpolice" */;
 			buildPhases = (
+				7B9EB1511C6C97F2A5733895 /* [CP] Check Pods Manifest.lock */,
 				3AFF6EFB279E54DD007A36DE /* Sources */,
 				3AFF6EFC279E54DD007A36DE /* Frameworks */,
 				3AFF6EFD279E54DD007A36DE /* Resources */,
+				60AD6F507D1412F4A8364821 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +174,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFF6F19279E55EF007A36DE /* Scada-Regular.ttf in Resources */,
+				3AFF6F17279E55EF007A36DE /* Scada-BoldItalic.ttf in Resources */,
 				3AFF6F0A279E54DE007A36DE /* Preview Assets.xcassets in Resources */,
+				3AFF6F18279E55EF007A36DE /* Scada-Bold.ttf in Resources */,
 				3AFF6F07279E54DE007A36DE /* Assets.xcassets in Resources */,
+				3AFF6F16279E55EF007A36DE /* Scada-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60AD6F507D1412F4A8364821 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9EB1511C6C97F2A5733895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xx_wskpolice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AFF6EFB279E54DD007A36DE /* Sources */ = {
@@ -263,6 +358,7 @@
 		};
 		3AFF6F0E279E54DE007A36DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD59D3B7574914F02005FA9 /* Pods-xx_wskpolice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,6 +368,7 @@
 				DEVELOPMENT_TEAM = 73S8J9N7ZU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xx-wskpolice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,6 +389,7 @@
 		};
 		3AFF6F0F279E54DE007A36DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0478CA2A83BC341E28D7EA2E /* Pods-xx_wskpolice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +399,7 @@
 				DEVELOPMENT_TEAM = 73S8J9N7ZU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xx-wskpolice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
