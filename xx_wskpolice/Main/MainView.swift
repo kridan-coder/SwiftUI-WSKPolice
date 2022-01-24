@@ -62,7 +62,7 @@ struct MainView: View {
              
               
               NavigationLink {
-                
+                PaintView()
               } label: {
                 
                   HStack {
