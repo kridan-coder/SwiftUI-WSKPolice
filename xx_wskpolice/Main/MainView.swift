@@ -49,7 +49,7 @@ struct MainView: View {
               }
               
               NavigationLink {
-                
+                PhotoRobotsView()
               } label: {
                 HStack {
                   Image("Finder")

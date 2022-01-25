@@ -8,4 +8,5 @@ target 'xx_wskpolice' do
   # Pods for xx_wskpolice
   pod 'Kingfisher'
   pod 'Alamofire'
+  pod 'RealmSwift'
 end

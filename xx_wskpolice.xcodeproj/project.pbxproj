@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A510CCD279FD88800B80118 /* PhotoRobotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A510CCC279FD88800B80118 /* PhotoRobotsView.swift */; };
+		3A510CCF279FD90A00B80118 /* PhotoRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A510CCE279FD90A00B80118 /* PhotoRobot.swift */; };
+		3A510CD1279FD93F00B80118 /* PhotoRobotContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A510CD0279FD93F00B80118 /* PhotoRobotContainer.swift */; };
+		3A510CD3279FDB1100B80118 /* PhotoRobotCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A510CD2279FDB1100B80118 /* PhotoRobotCreateView.swift */; };
 		3AFF6F03279E54DD007A36DE /* xx_wskpoliceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F02279E54DD007A36DE /* xx_wskpoliceApp.swift */; };
 		3AFF6F05279E54DD007A36DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF6F04279E54DD007A36DE /* ContentView.swift */; };
 		3AFF6F07279E54DE007A36DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF6F06279E54DE007A36DE /* Assets.xcassets */; };
@@ -29,6 +33,10 @@
 		0478CA2A83BC341E28D7EA2E /* Pods-xx_wskpolice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xx_wskpolice.release.xcconfig"; path = "Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice.release.xcconfig"; sourceTree = "<group>"; };
 		0CD59D3B7574914F02005FA9 /* Pods-xx_wskpolice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xx_wskpolice.debug.xcconfig"; path = "Target Support Files/Pods-xx_wskpolice/Pods-xx_wskpolice.debug.xcconfig"; sourceTree = "<group>"; };
 		1753A34D8DA44554CFC6BC5D /* Pods_xx_wskpolice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xx_wskpolice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A510CCC279FD88800B80118 /* PhotoRobotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobotsView.swift; sourceTree = "<group>"; };
+		3A510CCE279FD90A00B80118 /* PhotoRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobot.swift; sourceTree = "<group>"; };
+		3A510CD0279FD93F00B80118 /* PhotoRobotContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobotContainer.swift; sourceTree = "<group>"; };
+		3A510CD2279FDB1100B80118 /* PhotoRobotCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobotCreateView.swift; sourceTree = "<group>"; };
 		3AFF6EFF279E54DD007A36DE /* xx_wskpolice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xx_wskpolice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFF6F02279E54DD007A36DE /* xx_wskpoliceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xx_wskpoliceApp.swift; sourceTree = "<group>"; };
 		3AFF6F04279E54DD007A36DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A510CCB279FD87200B80118 /* PhotoRobot */ = {
+			isa = PBXGroup;
+			children = (
+				3A510CCC279FD88800B80118 /* PhotoRobotsView.swift */,
+				3A510CCE279FD90A00B80118 /* PhotoRobot.swift */,
+				3A510CD0279FD93F00B80118 /* PhotoRobotContainer.swift */,
+				3A510CD2279FDB1100B80118 /* PhotoRobotCreateView.swift */,
+			);
+			path = PhotoRobot;
+			sourceTree = "<group>";
+		};
 		3AFF6EF6279E54DD007A36DE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,7 @@
 		3AFF6F01279E54DD007A36DE /* xx_wskpolice */ = {
 			isa = PBXGroup;
 			children = (
+				3A510CCB279FD87200B80118 /* PhotoRobot */,
 				3AFF6F2C279E8CFF007A36DE /* Paint */,
 				3AFF6F29279E808B007A36DE /* AboutUs */,
 				3AFF6F24279E76CA007A36DE /* Main */,
@@ -293,7 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A510CD3279FDB1100B80118 /* PhotoRobotCreateView.swift in Sources */,
+				3A510CD1279FD93F00B80118 /* PhotoRobotContainer.swift in Sources */,
 				3AFF6F21279E5D4C007A36DE /* Checkbox.swift in Sources */,
+				3A510CCD279FD88800B80118 /* PhotoRobotsView.swift in Sources */,
 				3AFF6F2E279E8D11007A36DE /* PaintView.swift in Sources */,
 				3AFF6F28279E76DF007A36DE /* MainView.swift in Sources */,
 				3AFF6F1E279E58DE007A36DE /* LoginView.swift in Sources */,
@@ -301,6 +324,7 @@
 				3AFF6F05279E54DD007A36DE /* ContentView.swift in Sources */,
 				3AFF6F03279E54DD007A36DE /* xx_wskpoliceApp.swift in Sources */,
 				3AFF6F2B279E80A1007A36DE /* AboutUs.swift in Sources */,
+				3A510CCF279FD90A00B80118 /* PhotoRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
