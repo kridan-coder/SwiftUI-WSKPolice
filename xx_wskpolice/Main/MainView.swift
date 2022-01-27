@@ -49,7 +49,7 @@ struct MainView: View {
               }
               
               NavigationLink {
-                PhotoRobotCreateView(topImages: [ImageResizable("ugly_top"), ImageResizable("vampire_top"), ImageResizable("whistle_top")], middleImages: [ImageResizable("ugly_middle"), ImageResizable("vampire_middle"), ImageResizable("whistle_middle")], bottomImages: [ImageResizable("ugly_bottom"), ImageResizable("vampire_bottom"), ImageResizable("whistle_bottom")])
+                PhotoRobotsView()
               } label: {
                 HStack {
                   Image("Finder")

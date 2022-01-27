@@ -11,20 +11,21 @@ struct PhotoRobotContainer: View {
   var photoRobot: PhotoRobot
   var body: some View {
     VStack(spacing: 0) {
-      Image(photoRobot.topPath)
+      Image(uiImage: (UIImage(named: photoRobot.topPath) ?? UIImage()))
         .resizable()
-      Image(photoRobot.middlePath)
+      Image(uiImage: (UIImage(named: photoRobot.middlePath) ?? UIImage()))
         .resizable()
-      Image(photoRobot.bottomPath)
+      Image(uiImage: (UIImage(named: photoRobot.bottomPath) ?? UIImage()))
         .resizable()
     }
-    .aspectRatio(1, contentMode: .fill)
+    .frame(idealWidth: 100, idealHeight: 100)
+    .aspectRatio(1, contentMode: .fit)
     
   }
 }
 
 struct PhotoRobotContainer_Previews: PreviewProvider {
   static var previews: some View {
-    PhotoRobotContainer(photoRobot: PhotoRobot(topPath: "zombie_top", middlePath: "wink_middle", bottomPath: "vampire_bottom")).frame(width: 100, height: 100)
+    EmptyView()
   }
 }

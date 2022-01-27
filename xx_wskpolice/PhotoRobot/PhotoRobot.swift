@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import RealmSwift
 
-struct PhotoRobot {
-  let topPath: String
-  let middlePath: String
-  let bottomPath: String
+class PhotoRobot: Object, ObjectKeyIdentifiable {
+  @objc dynamic var topPath = ""
+  @objc dynamic var middlePath = ""
+  @objc dynamic var bottomPath = ""
 }
